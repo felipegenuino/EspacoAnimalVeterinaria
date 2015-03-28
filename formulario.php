@@ -43,13 +43,15 @@ $mensagemHTML = '
 			<img style="margin:  0 auto; display: block;" alt="Logotipo: Espaço Animal Veterinária" src="http://espacoanimalveterinaria.com.br/static/imagens/marca_petshop.png">  
 		</a>
 		<h1 style="font-size:24px; text-align: center;">Mensagem de '.$nome.' </h1>
-		<h3 style="font-size:17px; text-align: center; color: #909AA6;font-weight: 100;">Email enviado pelo site por '.$nome.' : '.$email.'   </h3>
+		<h3 style="font-size:17px; text-align: center; color: #909AA6;font-weight: 100;">'.$email.'   </h3>
 	</div>
-	<div style="width:480px;padding: 20px;background:#ffffff;margin:0 auto;border:1px solid #ccc;border-radius: 6px;">
+	<div style="width:440px;padding: 20px;background:#ffffff;margin:0 auto;border:1px solid #ccc;border-radius: 6px;">
 		<h4 style="font-size:18px;color:#684736;margin: 0;">Dados do formulário preenchido</h4>
 		<hr style="border:1px solid #E8EBED">
+		<p style="font-size:16px;"> <span>Nome</span>  <span style="color:#50B25A; font-style: italic;">" '.$nome.' "</span> </p>
+		<p style="font-size:16px;"> <span>Email</span>  <span style="color:#50B25A; font-style: italic;">" '.$email.' "</span> </p>
 		<p style="font-size:16px;"> <span>Assunto</span>  <span style="color:#50B25A; font-style: italic;">" '.$assunto.' "</span> </p>
-		<p style="font-size:16px;"> <span>Mensagem:</span> <span style="color:#50B25A; font-style: italic;">" '.$mensagem.' "</span> </p>
+		<p style="font-size:16px;"> <span>Mensagem</span> <span style="color:#50B25A; font-style: italic;">" '.$mensagem.' "</span> </p>
 		<small> Formulário preenchido por <strong>'.$nome.' </strong> no dia <strong>'.$data.'</strong> às <strong>'.$hora.'</strong> horas
 		<br> IP do usuário <strong>'.$ip.'</strong> e site: <strong>'.$servername.' </strong>, </small>
 	</div>
@@ -81,7 +83,7 @@ $headers_ .= "From: [Espaço Animal] <$emaildestinatario>\r\n"; // remetente
 /* Montando a mensagem a ser enviada no corpo do e-mail. */
 $mensagemHTML2 = '
 <div style="padding:20px; background: #EDEFF0; padding: 40px 0; width:100%; margin:0"> 
-	<div style="width: 480px; margin: 0 auto;">
+	<div style="width: 440px; margin: 0 auto;">
 		<a style="margin:  0 auto; display: block;" href="http://espacoanimalveterinaria.com.br/">
 			<img style="margin:  0 auto; display: block;" alt="Logotipo: Espaço Animal Veterinária" src="http://espacoanimalveterinaria.com.br/static/imagens/marca_petshop.png">  
 		</a>
@@ -91,8 +93,10 @@ $mensagemHTML2 = '
 	<div style="width:480px;padding: 20px;background:#ffffff;margin:0 auto;border:1px solid #ccc;border-radius: 6px;">
 		<h4 style="font-size:18px;color:#684736;margin: 0;">Dados do formulário preenchido</h4>
 		<hr style="border:1px solid #E8EBED">
+		<p style="font-size:16px;"> <span>Nome</span>  <span style="color:#50B25A; font-style: italic;">" '.$nome.' "</span> </p>
+		<p style="font-size:16px;"> <span>Email</span>  <span style="color:#50B25A; font-style: italic;">" '.$email.' "</span> </p>
 		<p style="font-size:16px;"> <span>Assunto</span>  <span style="color:#50B25A; font-style: italic;">" '.$assunto.' "</span> </p>
-		<p style="font-size:16px;"> <span>Mensagem:</span> <span style="color:#50B25A; font-style: italic;">" '.$mensagem.' "</span> </p>
+		<p style="font-size:16px;"> <span>Mensagem</span> <span style="color:#50B25A; font-style: italic;">" '.$mensagem.' "</span> </p>
 		<small> Formulário preenchido por <strong>'.$nome.' </strong> no dia <strong>'.$data.'</strong> às <strong>'.$hora.'</strong> horas
 		<br> IP do usuário <strong>'.$ip.'</strong> e site: <strong>'.$servername.' </strong>, </small>
 	</div>

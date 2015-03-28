@@ -1,3 +1,9 @@
+<php
+
+$nome  = $_REQUEST['nome'];
+
+?>
+
 <!DOCTYPE html>
 <html lang="pt-br">
 
@@ -7,7 +13,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
-    <meta http-equiv="refresh" content="5;url=index.php"> 
+    <meta http-equiv="refresh" content="5;url=index.html"> 
 
 
     <title>Mensagem Enviada | Espaço Animal Clínica Veterinária</title>
@@ -28,12 +34,12 @@
 
 <body>
  
- <a href="index.php">
+ <a href="./">
      <div class="alert alert-success alert-success-email alert-dismissible" role="alert">
 		  <button type="button" class="close" data-dismiss="alert" aria-label="Close">
 		  	<span aria-hidden="true">×</span></button>
         		 <span class="animated bounceIn">
-                      <strong>Obrigado pela sua mensagem!</strong> </br>
+                      <strong> Obrigado pela sua mensagem!</strong> </br>
                       Em breve retornaremos seu contato. </br>
                      <small> Confira seu lixo eletrônico.</small>
                  </span> 
