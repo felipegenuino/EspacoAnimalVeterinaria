@@ -1,9 +1,3 @@
-<php
-
-$nome  = $_REQUEST['nome'];
-
-?>
-
 <!DOCTYPE html>
 <html lang="pt-br">
 
@@ -13,7 +7,7 @@ $nome  = $_REQUEST['nome'];
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
-    <meta http-equiv="refresh" content="5;url=index.html"> 
+   <!--  <meta http-equiv="refresh" content="5;url=index.html">  -->
 
 
     <title>Mensagem Enviada | Espaço Animal Clínica Veterinária</title>
