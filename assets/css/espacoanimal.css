@@ -1,0 +1,46 @@
+.top-nav-collapse{}
+
+
+.logo {}
+
+
+.logotipo-texto{display: none;}
+
+.logotipo-texto {}
+.logotipo-texto span {font-weight: 100 !important}
+
+
+.logotipo-imagem{}
+
+.top-nav-collapse .logotipo-texto{display: inline-block;}
+.top-nav-collapse .logotipo-imagem{ display: none;}
+
+
+
+ /*==========  Non-Mobile First Method  ==========*/
+
+    /* Large Devices, Wide Screens */
+    @media only screen and (max-width : 1200px) {
+
+    }
+
+    /* Medium Devices, Desktops */
+    @media only screen and (max-width : 992px) {
+
+    }
+
+    /* Small Devices, Tablets */
+    @media only screen and (max-width : 768px) {
+		.logotipo-texto{display: inline-block; text-align: center;}
+
+    }
+
+    /* Extra Small Devices, Phones */ 
+    @media only screen and (max-width : 480px) {
+
+    }
+
+    /* Custom, iPhone Retina */ 
+    @media only screen and (max-width : 320px) {
+        
+    }
