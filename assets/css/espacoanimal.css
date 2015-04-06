@@ -4,8 +4,13 @@
 .logotipo-texto {}
 .logotipo-texto span {font-weight: 100 !important}
 
-.slogan .logotipo-imagem { margin-bottom: 20px;}
+
+.slogan .logotipo-imagem {
+  margin-bottom: 20px;
+}
+
 .logotipo-imagem{}
+
 .top-nav-collapse .logotipo-texto{display: inline-block;}
 .top-nav-collapse .logotipo-imagem{ display: none;}
 
